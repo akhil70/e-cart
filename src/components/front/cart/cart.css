@@ -1,0 +1,127 @@
+.cart-items {
+    margin: 30px auto;
+    width: 80%;
+    background-color: rgb(87, 78, 95);
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.cart-items-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    height: 50px;
+    border-bottom: 2px rgb(14, 13, 13) solid;
+}
+
+.cartitems-empty {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.cart-item-image {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+}
+.cart-item-list{
+   display: flex;
+   align-items: center;
+   padding-top: 20px;
+   padding-left: 20px;
+   padding-bottom: 20px;
+   font-size: 20px;
+   font-weight: 700;
+   margin-left: 5%;
+}
+.cart-item-name,.cart-item-function{
+     width: 20%;
+
+}
+.cart-item-add,.cart-item-remove{
+    width: 30px;
+    margin-right: 15px;
+    font-weight: 700;
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+    color: rgb(236, 228, 228);
+    cursor: pointer;
+}
+.cart-item-add{
+    background-color: green;
+}
+.cart-item-remove{
+    background-color: red;
+}
+.cart-item-total-price-name{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 22%;
+    font-size: 20px;
+    font-weight: 700;
+    border-top: 2px solid black;
+}
+
+.clear-cart-button{
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 0px 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.cart-items-total-price{
+    padding-left: 200px;
+
+}
+.clear-cart{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-right: 10px ;
+}
+
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .cart-items {
+        width: 90%;
+    }
+
+    .cart-item-image {
+        width: 150px;
+    }
+
+    .cart-item-list {
+        font-size: 18px;
+    }
+
+    .cart-item-add,
+    .cart-item-remove {
+        font-size: 16px;
+    }
+
+    .cart-item-total-price-name {
+        padding-left: 5px;
+        font-size: 18px;
+    }
+
+    .clear-cart-button {
+        padding: 0px 8px;
+        font-size: 14px;
+    }
+
+    .cart-items-total-price {
+        padding-left: 150px;
+    }
+}
